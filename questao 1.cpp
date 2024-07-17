@@ -21,10 +21,10 @@ int main()
     cout << "Digite o número de unidades vendidas: ";
     cin >> un_vendidas;
 
-    if (un_vendidas <= estoque) {
+    if (un_vendidas <= estoque) { //a) 
         cout << "Venda é possível." << endl;
-        cout << "Valor total da venda: " << venda * un_vendidas << endl;
-        cout << "Novo estoque: " << estoque - un_vendidas << endl;
+        cout << "Valor total da venda: " << venda * un_vendidas << endl ; //b)
+        cout << "Novo estoque: " << estoque - un_vendidas << endl; //c)
     } else {
         cout << "Venda é impossível. Estoque insuficiente." << endl;
     }
